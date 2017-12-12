@@ -1,0 +1,76 @@
+@media screen and (min-width:1024px){
+	 .wrapper{
+    max-width: 2000px;
+    padding:0 200px;
+    margin: 0 auto 0 auto;
+	}
+   	div.trainors section{
+max-width:265px;
+}
+    div.external-links{
+        top:160px;
+        left: 12%;
+    }
+    div.banner{
+background:url(images/banner.jpg)top;
+}
+
+    div.gallery{
+	
+	flex-wrap: nowrap;
+	}
+
+	div.gallery section{
+		flex-basis: 25%;
+	}
+
+}
+
+@media screen and (min-width:1100px){
+ div.external-links{
+        top:180px;
+        left: 12%;
+    }
+}
+
+
+
+
+@media screen and (min-width:1185px){
+ .skewed{
+        display: block;
+    }
+     div.external-links{
+        top:200px;
+        left: 20%;
+    }
+
+}
+
+
+@media screen and (min-width:1285px){
+ div.external-links{
+        top:230px;
+        left: 20%;
+    }
+
+}
+
+@media screen and (min-width:1366px){
+ div.external-links{
+        top:235px;
+        left: 20%;
+    }
+
+}
+
+@media screen and (min-width:1466px){
+ div.external-links{
+        top:230px;
+        left: 20%;
+    }
+
+}
+
+
+

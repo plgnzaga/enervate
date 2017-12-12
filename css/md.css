@@ -1,0 +1,438 @@
+
+@media screen and (min-width:540px) {
+    
+    .wrapper{
+    padding:0 70px;
+    }
+    
+    div.banner{
+        height: 600px;
+    }
+    div.banner p{
+        font-size: 65px;
+        padding-top: 170px;
+        
+    }
+    div.banner button{
+        width: 200px;
+        height: 50px;
+        border-radius: 40px 40px;
+        font-size: 20px;
+    }
+    div.welcome span{
+        font-size: 22px;
+    }
+    div.welcome button{
+        width: 200px;
+
+    }
+
+    div.more-welcome .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+
+    div.more-welcome .wrapper section{
+        flex-basis: 45%;
+
+    }
+
+    div.more-welcome .wrapper p{
+        font-size: 15px;
+    }
+
+
+    div.pricing span{
+        font-size: 26px;
+    }
+    div.external-links{
+        top:320px;
+        left: 28%;
+    }
+    div.success-stories span{
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+
+    div.pricing .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }   
+    div.pricing .wrapper h3{
+        flex-basis: 100%;
+    } 
+    div.pricing .wrapper section{
+        flex-basis: 30%;
+    }
+    div.pricing .wrapper span{
+        font-size: 20px;
+        color:antiquewhite;
+    }
+    div.pricing .wrapper p{
+        font-size: 15px;
+    }
+
+    
+    
+    div.class-sched{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 25px;
+    }
+
+    div.classes .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    div.classes .wrapper h3{
+        flex-basis: 100%;
+    }
+    div.classes .wrapper section{
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (min-width:717px) {
+     div.banner{
+        height: 670px;
+    }
+    div.banner p{
+        font-size: 65px;
+        padding-top: 190px;
+        
+    }
+    div.banner button{
+        width: 200px;
+        height: 50px;
+        border-radius: 40px 40px;
+        font-size: 20px;
+    }
+    
+    div.class-sched div.wrapper{
+        border:1px solid red;
+
+    }
+    div.class-sched div.wrapper section.mobile-first{
+        display: none;
+    }
+    div.class-sched div.wrapper section#larger-desktop{
+        display: none;
+    }
+    div.class-sched div.wrapper section.desktop-last{
+        display: inline;
+        display: flex;
+    }
+    div.class-sched div.wrapper section.btns{
+        border:1px solid black;
+        display: flex;
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 14px;
+        justify-content: space-around;
+
+    }
+    
+     div.class-sched div.wrapper section#desktop-last button{
+       width:50px;
+       padding:10px;
+       margin:10px;
+       flex-basis: 10%;  
+    }
+     
+    div.trainors .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    div.trainors .wrapper h3{
+        flex-basis: 100%;
+    }
+        div.trainors .wrapper section{
+            flex-basis: 40%;
+        }
+
+
+    div.external-links{
+        top:200px;
+        left:20%;
+
+    }
+
+    div.success-stories .wrapper{
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+
+   
+    div.success-stories section{
+        flex-basis: 50%;
+        margin:0 20px;
+    }
+    div.success-stories section:nth-child(2){
+        display: flex;
+        align-self: center;
+    }
+    
+    div.success-stories img{
+        width: 100%;
+    }
+    div.pre-footer .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.pre-footer .wrapper h4{
+        flex-basis: 100%;
+    }
+    div.pre-footer .wrapper div{
+        flex-basis:60%;
+        border-top:2px solid #232323;
+
+    }
+    
+
+    div.gallery section{
+        flex-basis: 16.66%;
+    }
+
+
+    footer{
+       
+    }
+    footer section{
+    margin:20px 0;
+    flex-basis: 30%;
+    
+    }
+}
+
+@media screen and (min-width:730px) {
+    div.external-links{
+        top:210px;
+        left:20%;
+
+    }
+
+}
+
+@media screen and (min-width:760px) {
+    div.external-links{
+        top:220px;
+        left:20%;
+
+    }
+
+}
+
+@media screen and (min-width:790px) {
+    div.external-links{
+        top:230px;
+        left:20%;
+
+    }
+
+}
+
+@media screen and (min-width:800px) {
+
+     .wrapper{
+    padding:0 80px;
+    }
+
+    div.classes .wrapper section{
+        flex-basis: 30%;
+    }
+    div.icon{
+        display: none;
+    }
+    li#brand{
+        display: inline;
+    }
+   ul{
+    margin:60px 0; 
+    display: inline;
+ 
+    } 
+    li{
+        
+        padding:15px 18px;
+        box-sizing: border-box;
+        font-size: 18px;
+        color:ghostwhite;
+        float: left;
+
+        display: inline;
+        opacity: 1;
+    }
+
+    li:hover{
+        background-color: #d3d3d3;
+        color:black;
+
+    }
+    .navigation-top a{
+        color: white;
+        text-decoration: none;
+        
+    }
+
+        
+
+}
+
+@media screen and (min-width:830px) {
+    div.external-links{
+        top:240px;
+        left:22%;
+
+    }
+
+}
+@media screen and (min-width:850px) {
+    div.external-links{
+        top:245px;
+        
+
+    }
+
+}
+
+@media screen and (min-width:870px) {
+    div.external-links{
+        top:255px;
+        
+
+    }
+
+}
+
+@media screen and (min-width:900px) {
+    div.external-links{
+        top:265px;
+        
+
+    }
+
+}
+
+
+@media screen and (min-width:940px) {
+    div.external-links{
+        top:280px;
+        left:25%;
+
+    }
+
+}
+
+@media screen and (min-width:950px) {
+    div.external-links{
+        top:285px;
+       
+
+    }
+
+}
+
+
+@media screen and (min-width:968px) {
+    div.classes .wrapper{
+        justify-content: space-between;
+    }
+   div.classes .wrapper section{
+        flex-basis: 22%;
+    }
+
+
+}
+
+
+@media screen and (min-width:980px) {
+    div.external-links{
+        top:215px;
+        left: 20%;
+    }
+
+    div.more-welcome .wrapper section{
+        flex-basis: 30%;
+       
+
+    }
+    div.more-welcome .wrapper p{
+        font-size: 14px;
+    }
+    div.more-welcome .wrapper h4{
+        font-size: 18px;
+    }
+    div.trainors .wrapper section{
+            flex-basis: 30%;
+        }
+
+    div.pre-footer .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    div.pre-footer .wrapper h4{
+        flex-basis: 100%;
+    }
+    div.pre-footer .wrapper div{
+        flex-basis:40%;
+       
+
+    }
+
+
+    footer .wrapper{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    footer .wrapper section{
+        flex-basis: 30%;
+    }
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* @media only screen and (min-width:768px) {
+middle devices
+     .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    } */
